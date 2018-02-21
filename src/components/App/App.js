@@ -33,7 +33,7 @@ class App extends Component {
     btn = !this.state.loggedIn ? "log in" : "log out";
     return (
       <div className="App">
-        <Nav btn1={this.state.btn1} btn2={this.state.btn2}/>
+        <Nav loggedIn={this.state.loggedIn} />
         <Main loggedIn={this.state.loggedIn} />
         <button onClick={this.handleLog}>
           {btn}
