@@ -1,0 +1,9 @@
+.Main {
+  color: #DDD;
+  background-color: #AAA;
+  text-align: center;
+  display: block;
+  margin: auto;
+  height: 500px;
+  width: 90%;
+}
